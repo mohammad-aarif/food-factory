@@ -62,10 +62,10 @@ body{
     font-size: 2em;
     color:#707070;
 }
-.recipies-text{
+.text{
     text-align: center;
 }
-.recipies-text h1{
+.text h1{
     font-size: 2em;
     color: #707070;
 }
@@ -134,4 +134,36 @@ body{
 del{
     color:red;
     font-weight: 400;
+}
+.stuff{
+    background-image: url(img/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0%;
+}
+.stuff-cards{
+    margin: 5% 10%; 
+    /* height: 100%; */
+    display: flex;
+}
+.stuff-item{
+    width: 25%;
+    margin: 0% 2%;
+    padding: 2%;
+}
+.stuff-item img{
+    width: 60%;
+    padding: 0% 20%;
+    /* border-radius: 50%; */
+}
+.stuff-text{
+    text-align: center;
+}
+.stuff-text h1{
+    color:#707070;
+}
+.stuff-text a{
+    color:#ff711e;
+    text-decoration: none;
+    font-weight: bold;
 }
